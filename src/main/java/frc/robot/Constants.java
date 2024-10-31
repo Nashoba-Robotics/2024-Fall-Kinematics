@@ -44,7 +44,7 @@ public final class Constants {
       .withKI(0)
       .withKD(0);
 
-    public static final double ARM_GEAR_RATIO = 0; //How many times must the motor rotate to turn the encoder once?
+    public static final double ARM_GEAR_RATIO = 4*4*4*72/22.; //How many times must the motor rotate to turn the encoder once?
     public static final double ENCODER_OFFSET = 0; //Units in rotations
     public static final double ENCODER_TO_ARM_RATIO = 1; //When the encoder rotates once, the arm rotates once
   }
