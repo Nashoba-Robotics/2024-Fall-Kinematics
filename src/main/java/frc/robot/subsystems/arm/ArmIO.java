@@ -1,8 +1,11 @@
 package frc.robot.subsystems.arm;
 
+import org.littletonrobotics.junction.AutoLog;
+
 import edu.wpi.first.math.geometry.Rotation2d;
 
 public interface ArmIO {
+    @AutoLog
     public static class ArmIOInputs{
         public double extendRot = 0; //Rotations
         public double extendM = 0; //m
